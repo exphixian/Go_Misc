@@ -8,5 +8,5 @@ func main() {
 	var oppositeDay bool
 	fmt.Println("True or False: Is today opposite day?")
 	fmt.Scan(&oppositeDay)
-	fmt.Print(!oppositeDay, "!")
+	fmt.Print("No, it's ", !oppositeDay, "!")
 }
